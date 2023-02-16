@@ -1,0 +1,20 @@
+﻿################################################################################
+# 此 .gitignore 文件已由 Microsoft(R) Visual Studio 自动创建。
+################################################################################
+
+/boss-authapi/Boss.Auth.Application/bin/Debug/net6.0
+/boss-authapi/Boss.Auth.Common/bin/Debug/net6.0
+/boss-authapi/Boss.Auth.Domain/bin/Debug/net6.0
+/boss-authapi/Boss.Auth.Domain/obj
+/boss-authapi/Boss.Auth.Model/bin/Debug/net6.0
+/boss-authapi/Boss.Auth.Repository/bin/Debug/net6.0
+/boss-authapi/Boss.Auth.Repository/obj
+/boss-authapi/Boss.Auth.WebApi/bin/Debug/net6.0
+/boss-authapi/Boss.Auth.WebApi/obj
+/boss-authapi/Boss.Infrastructure.Authentication/bin/Debug/net6.0
+/boss-authapi/Boss.Infrastructure.Authentication/obj
+/boss-ui/.vs
+/boss-authapi/.vs/Boss.Auth
+/boss-authapi/Boss.Auth.Application/obj
+/boss-authapi/Boss.Auth.Common/obj
+/boss-authapi/Boss.Auth.Model/obj

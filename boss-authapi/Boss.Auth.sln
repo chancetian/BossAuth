@@ -1,0 +1,84 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32228.430
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Boss.Auth.Common", "Boss.Auth.Common\Boss.Auth.Common.csproj", "{ADF27C85-1B0F-4CB5-BE59-9332E49D4188}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Boss.Auth.Model", "Boss.Auth.Model\Boss.Auth.Model.csproj", "{D4EA1138-82A8-46E1-BDB0-B378965FE474}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Boss.Auth.Repository", "Boss.Auth.Repository\Boss.Auth.Repository.csproj", "{B25E2B77-B169-4DCB-AA79-C08DF88254C5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Boss.Auth.Domain", "Boss.Auth.Domain\Boss.Auth.Domain.csproj", "{795ED383-3FD4-4732-BE1F-8D5959D1E170}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Boss.Auth.Application", "Boss.Auth.Application\Boss.Auth.Application.csproj", "{65037BED-04F4-429B-8268-A4388CA97E15}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Boss.Auth.WebApi", "Boss.Auth.WebApi\Boss.Auth.WebApi.csproj", "{97B9F4DE-53FE-4F8D-93BD-E6B4D0B7F6F4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01 Web", "01 Web", "{7015B783-27C1-42AF-9796-8E6B96335098}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02 Application", "02 Application", "{077EDDBA-A874-4C30-BC1A-F771C8D0D04E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03 Domain", "03 Domain", "{5D3E6203-4B55-4788-BC23-255EB461B4D4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04 Repository", "04 Repository", "{778C5941-8E54-4E71-A88B-87A6D41D07B5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "05 Entity", "05 Entity", "{A18CC263-DBCC-48E2-B16C-BDB839CBE781}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "06 Common", "06 Common", "{F4B88205-22D9-4C32-9C19-FB42B6B6612A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "07 Infrastructure", "07 Infrastructure", "{119D71AE-2A3C-4869-BE13-26DFD6ECDC64}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Boss.Infrastructure.Authentication", "Boss.Infrastructure.Authentication\Boss.Infrastructure.Authentication.csproj", "{068F4DE5-3C0A-404F-BBEF-D2ECCEB71D71}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ADF27C85-1B0F-4CB5-BE59-9332E49D4188}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADF27C85-1B0F-4CB5-BE59-9332E49D4188}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADF27C85-1B0F-4CB5-BE59-9332E49D4188}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADF27C85-1B0F-4CB5-BE59-9332E49D4188}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D4EA1138-82A8-46E1-BDB0-B378965FE474}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4EA1138-82A8-46E1-BDB0-B378965FE474}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4EA1138-82A8-46E1-BDB0-B378965FE474}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4EA1138-82A8-46E1-BDB0-B378965FE474}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B25E2B77-B169-4DCB-AA79-C08DF88254C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B25E2B77-B169-4DCB-AA79-C08DF88254C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B25E2B77-B169-4DCB-AA79-C08DF88254C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B25E2B77-B169-4DCB-AA79-C08DF88254C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{795ED383-3FD4-4732-BE1F-8D5959D1E170}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{795ED383-3FD4-4732-BE1F-8D5959D1E170}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{795ED383-3FD4-4732-BE1F-8D5959D1E170}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{795ED383-3FD4-4732-BE1F-8D5959D1E170}.Release|Any CPU.Build.0 = Release|Any CPU
+		{65037BED-04F4-429B-8268-A4388CA97E15}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65037BED-04F4-429B-8268-A4388CA97E15}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65037BED-04F4-429B-8268-A4388CA97E15}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65037BED-04F4-429B-8268-A4388CA97E15}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97B9F4DE-53FE-4F8D-93BD-E6B4D0B7F6F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97B9F4DE-53FE-4F8D-93BD-E6B4D0B7F6F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97B9F4DE-53FE-4F8D-93BD-E6B4D0B7F6F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97B9F4DE-53FE-4F8D-93BD-E6B4D0B7F6F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{068F4DE5-3C0A-404F-BBEF-D2ECCEB71D71}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{068F4DE5-3C0A-404F-BBEF-D2ECCEB71D71}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{068F4DE5-3C0A-404F-BBEF-D2ECCEB71D71}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{068F4DE5-3C0A-404F-BBEF-D2ECCEB71D71}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{ADF27C85-1B0F-4CB5-BE59-9332E49D4188} = {F4B88205-22D9-4C32-9C19-FB42B6B6612A}
+		{D4EA1138-82A8-46E1-BDB0-B378965FE474} = {A18CC263-DBCC-48E2-B16C-BDB839CBE781}
+		{B25E2B77-B169-4DCB-AA79-C08DF88254C5} = {778C5941-8E54-4E71-A88B-87A6D41D07B5}
+		{795ED383-3FD4-4732-BE1F-8D5959D1E170} = {5D3E6203-4B55-4788-BC23-255EB461B4D4}
+		{65037BED-04F4-429B-8268-A4388CA97E15} = {077EDDBA-A874-4C30-BC1A-F771C8D0D04E}
+		{97B9F4DE-53FE-4F8D-93BD-E6B4D0B7F6F4} = {7015B783-27C1-42AF-9796-8E6B96335098}
+		{068F4DE5-3C0A-404F-BBEF-D2ECCEB71D71} = {119D71AE-2A3C-4869-BE13-26DFD6ECDC64}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7B407B52-83F1-4E1D-B6B8-9C475339D63C}
+	EndGlobalSection
+EndGlobal
